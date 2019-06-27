@@ -68,7 +68,7 @@ with open('data_file.json', 'w') as outfile:
 credentials_dict = {
     'type': 'service_account',
     'client_id': 'gcp client key',
-‘Client_email’:’email’,
+    'client_email':'email',
     'private_key_id': 'gcp key id',
     'private_key':'-----BEGIN PRIVATE KEY-----\n-----END PRIVATE KEY-----\n'
 }
